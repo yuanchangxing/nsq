@@ -58,9 +58,9 @@
   revision = "0c63f026bcd6"
 
 [[constraint]]
-  name = "github.com/nsqio/go-diskqueue"
+  name = "github.com/yuanchangxing/go-diskqueue"
   revision = "74cfbc9de839"
 
 [[constraint]]
-  name = "github.com/nsqio/go-nsq"
+  name = "github.com/yuanchangxing/go-nsq"
   revision = "v1.0.7"

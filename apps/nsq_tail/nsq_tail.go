@@ -10,9 +10,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/nsqio/go-nsq"
-	"github.com/nsqio/nsq/internal/app"
-	"github.com/nsqio/nsq/internal/version"
+	"github.com/yuanchangxing/go-nsq"
+	"github.com/yuanchangxing/nsq/internal/app"
+	"github.com/yuanchangxing/nsq/internal/version"
 )
 
 var (
@@ -71,7 +71,7 @@ func (th *TailHandler) HandleMessage(m *nsq.Message) error {
 func main() {
 	cfg := nsq.NewConfig()
 
-	flag.Var(&nsq.ConfigFlag{cfg}, "consumer-opt", "option to passthrough to nsq.Consumer (may be given multiple times, http://godoc.org/github.com/nsqio/go-nsq#Config)")
+	flag.Var(&nsq.ConfigFlag{cfg}, "consumer-opt", "option to passthrough to nsq.Consumer (may be given multiple times, http://godoc.org/github.com/yuanchangxing/go-nsq#Config)")
 	flag.Parse()
 
 	if *showVersion {

@@ -9,9 +9,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/nsqio/nsq/internal/lg"
-	"github.com/nsqio/nsq/internal/test"
-	"github.com/nsqio/nsq/nsqd"
+	"github.com/yuanchangxing/nsq/internal/lg"
+	"github.com/yuanchangxing/nsq/internal/test"
+	"github.com/yuanchangxing/nsq/nsqd"
 )
 
 func TestNeitherNSQDAndNSQLookup(t *testing.T) {

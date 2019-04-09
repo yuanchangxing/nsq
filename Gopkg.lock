@@ -66,14 +66,14 @@
 
 [[projects]]
   digest = "1:22ffd73c4580854d935821a0fa95ff7324df836efa86d256adeb392450cbde87"
-  name = "github.com/nsqio/go-diskqueue"
+  name = "github.com/yuanchangxing/go-diskqueue"
   packages = ["."]
   pruneopts = ""
   revision = "74cfbc9de839"
 
 [[projects]]
   digest = "1:7a69f6a3a33929f8b66aa39c93868ad1698f06417fe627ae067559beb94504bd"
-  name = "github.com/nsqio/go-nsq"
+  name = "github.com/yuanchangxing/go-nsq"
   packages = ["."]
   pruneopts = ""
   revision = "v1.0.7"
@@ -102,8 +102,8 @@
     "github.com/judwhite/go-svc/svc",
     "github.com/julienschmidt/httprouter",
     "github.com/mreiferson/go-options",
-    "github.com/nsqio/go-diskqueue",
-    "github.com/nsqio/go-nsq",
+    "github.com/yuanchangxing/go-diskqueue",
+    "github.com/yuanchangxing/go-nsq",
   ]
   solver-name = "gps-cdcl"
   solver-version = 1

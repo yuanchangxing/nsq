@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/nsqio/go-nsq"
-	"github.com/nsqio/nsq/internal/version"
+	"github.com/yuanchangxing/go-nsq"
+	"github.com/yuanchangxing/nsq/internal/version"
 )
 
 func connectCallback(n *NSQD, hostname string) func(*lookupPeer) {

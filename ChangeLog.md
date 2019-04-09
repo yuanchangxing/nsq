@@ -302,7 +302,7 @@ Bugs:
 NOTE: the bundled utilities are built against [`go-nsq` `v1.0.4`][go-nsq_104] and include all of
 those features/fixes.
 
-[go-nsq_104]: https://github.com/nsqio/go-nsq/releases/tag/v1.0.4
+[go-nsq_104]: https://github.com/yuanchangxing/go-nsq/releases/tag/v1.0.4
 
 ### 0.3.2 - 2015-02-08
 
@@ -316,7 +316,7 @@ The new image is an order of magnitude smaller, weighing in around 70mb.
 
 In addition, the impetus for this quick release is to address a slew of reconnect related bug fixes
 in the utility apps (`nsq_to_nsq`, `nsq_to_file`, etc.), for details see the [`go-nsq` `v1.0.3`
-release notes](https://github.com/nsqio/go-nsq/releases/tag/v1.0.3).
+release notes](https://github.com/yuanchangxing/go-nsq/releases/tag/v1.0.3).
 
 Features:
 
@@ -534,7 +534,7 @@ client certificate policy via `--tls-client-auth-policy` (`require` or `require-
 This can be used as a form of client authentication.
 
 Additionally, `nsqd` is now structured such that it is importable in other Go applications
-via `github.com/nsqio/nsq/nsqd`, thanks to @kzvezdarov.
+via `github.com/yuanchangxing/nsq/nsqd`, thanks to @kzvezdarov.
 
 Finally, thanks to @paddyforan, `nsq_to_file` can now archive *multiple* topics or
 optionally archive *all* discovered topics (by specifying no `--topic` params
@@ -545,7 +545,7 @@ New Features / Enhancements:
  * #334 - `nsq_to_file` can archive many topics (thanks @paddyforan)
  * #327 - add `nsqd` TLS client certificate verification policy, ability
           to require TLS, and HTTPS support (thanks @chrisroberts)
- * #325 - make `nsqd` importable (`github.com/nsqio/nsq/nsqd`) (thanks @kzvezdarov)
+ * #325 - make `nsqd` importable (`github.com/yuanchangxing/nsq/nsqd`) (thanks @kzvezdarov)
  * #321 - improve `IDENTIFY` options (replace `short_id` and `long_id` with
           `client_id` and `hostname`)
  * #319 - allow path separator in `nsq_to_file` filenames (thanks @jsocol)
@@ -670,7 +670,7 @@ New Features / Enhancements:
 **Upgrading from 0.2.22**: No backwards incompatible changes.
 
 We now use [godep](https://github.com/kr/godep) in order to achieve reproducible builds with pinned
-dependencies.  If you're on go1.1+ you can now just use `godep get github.com/nsqio/nsq/...`.
+dependencies.  If you're on go1.1+ you can now just use `godep get github.com/yuanchangxing/nsq/...`.
 
 This release includes `nsqd` protocol compression feature negotiation.
 [Snappy](https://code.google.com/p/snappy/) and [Deflate](http://en.wikipedia.org/wiki/DEFLATE) are
@@ -977,8 +977,8 @@ removed in a future release.
 
 ## go-nsq Client Library
 
- * #264 moved **go-nsq** to its own [repository](https://github.com/nsqio/go-nsq)
+ * #264 moved **go-nsq** to its own [repository](https://github.com/yuanchangxing/go-nsq)
 
 ## pynsq Python Client Library
 
- * #88 moved **pynsq** to its own [repository](https://github.com/nsqio/pynsq)
+ * #88 moved **pynsq** to its own [repository](https://github.com/yuanchangxing/pynsq)

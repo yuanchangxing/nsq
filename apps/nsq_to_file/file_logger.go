@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nsqio/go-nsq"
-	"github.com/nsqio/nsq/internal/lg"
+	"github.com/yuanchangxing/go-nsq"
+	"github.com/yuanchangxing/nsq/internal/lg"
 )
 
 type FileLogger struct {

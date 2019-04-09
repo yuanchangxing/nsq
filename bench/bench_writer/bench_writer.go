@@ -10,7 +10,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/nsqio/go-nsq"
+	"github.com/yuanchangxing/go-nsq"
 )
 
 var (
